@@ -1,11 +1,11 @@
 package com.bridgelabz.datastructureprograms;
 
-public class UnOrderedList<K> {
-
+public class OrderedList<K> {
+	
 	public INode head;
 	public INode tail;
 
-	public UnOrderedList() {
+	public OrderedList() {
 		this.head = null;
 		this.tail = null;
 	}
@@ -51,6 +51,7 @@ public class UnOrderedList<K> {
 			}
 		}
 	}
+	
 
 	public void printNodes() {
 		StringBuffer myNodes = new StringBuffer("My Nodes: ");
